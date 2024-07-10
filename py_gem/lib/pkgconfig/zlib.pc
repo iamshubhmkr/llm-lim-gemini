@@ -1,0 +1,13 @@
+prefix=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem
+exec_prefix=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem
+libdir=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem/lib
+sharedlibdir=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem/lib
+includedir=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

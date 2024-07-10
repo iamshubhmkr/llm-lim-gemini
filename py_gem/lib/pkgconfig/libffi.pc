@@ -1,0 +1,11 @@
+prefix=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,5 @@
+#!/Users/shubham/Documents/Projects/GenAI_projects/GeminiPro/LLM-LIM-GeminiPro/py_gem/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
